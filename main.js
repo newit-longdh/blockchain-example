@@ -20,7 +20,7 @@ class Blockchain{
     }
 
     createGenesisBlock() {
-        return new Block(0, "01/01/2017", "Genesis block", "0");
+        return new Block(0, "03/01/2009", "Genesis block", "0");
     }
 
     getLatestBlock() {
@@ -52,8 +52,8 @@ class Blockchain{
 }
 
 let newitCoin = new Blockchain();
-newitCoin.addBlock(new Block(1, "20/07/2017", { amount: 4 }));
-newitCoin.addBlock(new Block(2, "20/07/2017", { amount: 8 }));
+newitCoin.addBlock(new Block(1, "12/09/2020", { amount: 4 }));
+newitCoin.addBlock(new Block(2, "12/09/2020", { amount: 8 }));
 
 
 console.log('Blockchain valid? ' + newitCoin.isChainValid());
