@@ -52,8 +52,8 @@ class Blockchain{
 }
 
 let newitCoin = new Blockchain();
-newitCoin.addBlock(new Block(1, "12/09/2020", { amount: 4 }));
-newitCoin.addBlock(new Block(2, "12/09/2020", { amount: 8 }));
+newitCoin.addBlock(new Block(1, "11/09/2020", { amount: 4 }));
+newitCoin.addBlock(new Block(2, "11/09/2020", { amount: 8 }));
 
 
 console.log('Blockchain valid? ' + newitCoin.isChainValid());
